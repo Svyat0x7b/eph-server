@@ -1,0 +1,137 @@
+[
+    {
+        "id": "p1",
+        "title": "Black Sweatshirt",
+        "brand": "Nike",
+        "price": 59.99,
+        "img": [
+            "https://i.postimg.cc/gXM26gbv/p1.png",
+            "https://i.postimg.cc/pmDVBWtV/p2.png",
+            "https://i.postimg.cc/3kMJpyVb/p3.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Man"
+    },
+    {
+        "id": "p2",
+        "title": "White T-shirt",
+        "brand": "Adidas",
+        "price": 64.99,
+        "img": [
+            "https://i.postimg.cc/pmDVBWtV/p2.png",
+            "https://i.postimg.cc/3kMJpyVb/p3.png",
+            "https://i.postimg.cc/Lgn6kjmG/p4.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Man"
+    },
+    {
+        "id": "p3",
+        "title": "Yellow Sweatshirt",
+        "brand": "Nike",
+        "price": 59.99,
+        "img": [
+            "https://i.postimg.cc/3kMJpyVb/p3.png",
+            "https://i.postimg.cc/Lgn6kjmG/p4.png",
+            "https://i.postimg.cc/p9C2gsTg/p5.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Man"
+    },
+    {
+        "id": "p4",
+        "title": "Green T-shirt",
+        "brand": "Adidas",
+        "price": 64.99,
+        "img": [
+            "https://i.postimg.cc/Lgn6kjmG/p4.png",
+            "https://i.postimg.cc/p9C2gsTg/p5.png",
+            "https://i.postimg.cc/NLz0sC4t/p6.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Man"
+    },
+    {
+        "id": "p5",
+        "title": "White Graphic Crop Top",
+        "brand": "Women",
+        "price": 34.99,
+        "img": [
+            "https://i.postimg.cc/p9C2gsTg/p5.png",
+            "https://i.postimg.cc/NLz0sC4t/p6.png",
+            "https://i.postimg.cc/fkLLhQY5/p7.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Man"
+    },
+    {
+        "id": "p6",
+        "title": "Black Shorts",
+        "brand": "Nike",
+        "price": 23.99,
+        "img": [
+            "https://i.postimg.cc/NLz0sC4t/p6.png",
+            "https://i.postimg.cc/fkLLhQY5/p7.png",
+            "https://i.postimg.cc/06PkWT8Y/p8.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Woman"
+    },
+    {
+        "id": "p7",
+        "title": "Barboreal Gray Sweatshirt",
+        "brand": "Staff",
+        "price": 12.99,
+        "img": [
+            "https://i.postimg.cc/fkLLhQY5/p7.png",
+            "https://i.postimg.cc/06PkWT8Y/p8.png",
+            "https://i.postimg.cc/56Q2657C/p9.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Woman"
+    },
+    {
+        "id": "p8",
+        "title": "Yellow Sweatshirt",
+        "brand": "Adidas",
+        "price": 48.99,
+        "img": [
+            "https://i.postimg.cc/06PkWT8Y/p8.png",
+            "https://i.postimg.cc/56Q2657C/p9.png",
+            "https://i.postimg.cc/gXM26gbv/p1.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Woman"
+    },
+    {
+        "id": "p9",
+        "title": "Blue Flower Top",
+        "brand": "Nike",
+        "price": 32.99,
+        "img": [
+            "https://i.postimg.cc/56Q2657C/p9.png",
+            "https://i.postimg.cc/gXM26gbv/p1.png",
+            "https://i.postimg.cc/pmDVBWtV/p2.png"
+        ],
+        "sizes": ["S", "M", "XL"],
+        "colors": ["black", "yellow"],
+        "rating": "3.5",
+        "category": "Woman"
+    }
+]
