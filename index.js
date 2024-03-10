@@ -1,11 +1,11 @@
 require('dotenv').config({ path: '.env' });
-require('../config/db').connect();
+require('./config/db').connect();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const authRouter = require('../router/auth');
-const productRouter = require('../router/product');
-const searchRouter = require('../router/search');
+const authRouter = require('./router/auth');
+const productRouter = require('./router/product');
+const searchRouter = require('./router/search');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
