@@ -8,7 +8,7 @@ const productRouter = require('../router/product');
 const searchRouter = require('../router/search');
 
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
