@@ -1,11 +1,10 @@
 require('dotenv').config({ path: '.env' });
-require('./config/db').connect();
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
 const authRouter = require('./router/auth');
 const productRouter = require('./router/product');
 const searchRouter = require('./router/search');
+const db = require('./config/db');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -18,4 +17,10 @@ app.use('/api/v1/search', searchRouter);
 
 app.get('/', (req, res) => res.send('Euphoria Server!'));
 
-app.listen(PORT, () => console.log('Server running...'));
+db.on('connected', () => {
+    app.listen(PORT, () => console.log('Server running...'));
+});
+
+db.on('error', (error) => {
+    console.error('MongoDB connection error:', error);
+});
